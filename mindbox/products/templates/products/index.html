@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mindbox</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="{% static 'products/images/favicon.png' %}" type="image/x-icon"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<img src="{% static 'products/images/mindbox.png'%}" alt="HTML5 Icon" width="215" height="70">
+{% block content %}
+<h2>Get pairs "product-category"</h2>
+<p>{{full_data}}</p>
+<a href="{% static 'products/files/full_data.txt' %}" download="full_data.txt">Download txt</a>
+<hr>
+<h2>Get category list with its products</h2>
+<p>{{categories}}</p>
+<a href="{% static 'products/files/categories.txt' %}" download="categories.txt">Download txt</a>
+<hr>
+<h2>Get product list with its categories</h2>
+<p>{{products}}</p>
+<a href="{% static 'products/files/products.txt' %}" download="products.txt">Download txt</a>
+{% endblock %}
+
+<hr>
+
+<!-- Footer -->
+<table>
+<tr><td valign=top>
+	<div id="footer">
+		<p>&copy; 2022 All rights have been stolen</p>
+	</div>
+</td></tr></table>
+</body>
+</html>
