@@ -22,8 +22,9 @@ Test cases of mindbox company
 Проект должен содержать docker-compose.yml файл, через который можно запустить сервис и проверить его работу.
 
 
-**NOTE**: for run use the next command in terminal and open http://localhost:8000/
-'''
+**NOTE**:
+For run use the next command in terminal and open http://localhost:8000/
+```
 ~/mindbox> docker-compose up
-'''
+```
 It builds postgres with dummy data and django server with required lists in web-browser
