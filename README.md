@@ -27,4 +27,6 @@ For run use the next command in terminal and open http://localhost:8000/
 ```
 ~/mindbox> docker-compose up
 ```
-It builds postgres with dummy data and django server with required lists in web-browser
+It builds postgres with dummy data and django server with required by task lists from DB in web-browser:
+
+![Screenshot from 2022-11-03 12-06-35](https://user-images.githubusercontent.com/63195531/199705954-76219910-e107-4397-8118-a9d85375965d.png)
