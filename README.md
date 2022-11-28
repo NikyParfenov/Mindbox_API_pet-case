@@ -2,24 +2,21 @@
 Test cases of mindbox company
 
 
-**Задание №1**
+**Task №1**
 
-Есть Pandas DataFrame со столбцами [“customer_id”, “product_id”, “timestamp”], который содержит данные по просмотрам товаров на сайте. Есть проблема – просмотры одного customer_id не разбиты на сессии (появления на сайте). Мы хотим разместить сессии так, чтобы сессией считались все смежные просмотры, между которыми не более 3 минут.
-Написать методом который создаст в Pandas DataFrame столбец session_id и проставит в нем уникальный int id для каждой сессии.
-У каждого пользователя может быть по несколько сессий. Исходный DataFrame может быть большим – до 100 млн строк.
+There is a Pandas DataFrame with columns [“customer_id”, “product_id”, “timestamp”], which contains data on product views on the site. There is a problem – the views of one customer_id are not split into sessions (appearances on the site). We want to place sessions so that all adjacent views with no more than 3 minutes between them are considered a session. Write a method that will create a session_id column in Pandas DataFrame and put a unique int id in it for each session. Each user can have several sessions. The original DataFrame can be large – up to 100 million rows.
 
 
+**Task №2.**
 
-**Задание №2.**
-
-В SQL базе данных есть продукты и категории. Одному продукту может соответствовать много категорий, в одной категории может быть много продуктов.
-Напишите HTTP API через которое можно получить:
-список всех продуктов с их категориями,
-список категорий с продуктами,
-список всех пар «Имя продукта – Имя категории».
-Если у продукта нет категорий, то он все равно должен выводиться.
-Если у категории нет продуктов, то она все равно должна выводиться.
-Проект должен содержать docker-compose.yml файл, через который можно запустить сервис и проверить его работу.
+There are products and categories in the SQL database. One product can correspond to many categories, one category can have many products.
+Write an HTTP API through which you can get:
+- a list of all products with their categories,
+- a list of categories with products,
+- a list of all pairs "Product Name – Category Name".
+If the product has no categories, then it should still be displayed.
+If the category has no products, then it should still be displayed.
+The project must contain docker-compose.yml file through which you can start the service and check its operation.
 
 
 **NOTE**:
