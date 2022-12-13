@@ -1,5 +1,4 @@
-# Mindbox_test_cases
-Test cases of mindbox company
+# Mindbox API pet-cases
 
 
 ## **Part №1**
