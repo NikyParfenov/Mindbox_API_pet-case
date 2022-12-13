@@ -2,12 +2,18 @@
 Test cases of mindbox company
 
 
-**Task №1**
+## **Part №1**
 
 There is a Pandas DataFrame with columns [“customer_id”, “product_id”, “timestamp”], which contains data on product views on the site. There is a problem – the views of one customer_id are not split into sessions (appearances on the site). We want to place sessions so that all adjacent views with no more than 3 minutes between them are considered a session. Write a method that will create a session_id column in Pandas DataFrame and put a unique int id in it for each session. Each user can have several sessions. The original DataFrame can be large – up to 100 million rows.
 
 
-**Task №2.**
+**NOTE**: 
+See the file 
+```
+Sessions_separation.ipynb
+```
+
+## **Part №2**
 
 There are products and categories in the SQL database. One product can correspond to many categories, one category can have many products.
 Write an HTTP API through which you can get:
