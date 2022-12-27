@@ -7,9 +7,9 @@ There is a Pandas DataFrame with columns [“customer_id”, “product_id”, �
 
 
 **NOTE**: 
-See the file 
+See the folder 
 ```
-Sessions_separation.ipynb
+Sessions_separation
 ```
 
 ## **Part №2**
