@@ -1,4 +1,4 @@
-# Mindbox API pet-cases
+# Mindbox HTTP-API pet-cases
 
 
 ## **Part №1**
